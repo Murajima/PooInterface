@@ -15,7 +15,7 @@
       <file leaf-file-name="CollCategories.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/moteur/CollCategories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
+            <state relative-caret-position="-16">
               <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
               <folding>
                 <element signature="e#204#231#0" expanded="true" />
@@ -37,56 +37,34 @@
       <file leaf-file-name="MySqlB2B.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/connecteurs/MySqlB2B.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="22" column="99" lean-forward="false" selection-start-line="22" selection-start-column="99" selection-end-line="22" selection-end-column="99" />
+            <state relative-caret-position="45">
+              <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
               <folding>
-                <marker date="1517924365871" expanded="true" signature="1264:1278" ph="SELECT * FRO... missingValue" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <marker date="1517927180501" expanded="true" signature="1333:1347" ph="SELECT * FRO... missingValue" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DomaineBDD.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DomaineBDD.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DaoBDD/DomaineBDD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="293">
+              <caret line="137" column="57" lean-forward="false" selection-start-line="137" selection-start-column="57" selection-end-line="137" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1701#1702#0" expanded="true" />
-                <element signature="e#1728#1729#0" expanded="true" />
-                <element signature="e#1787#1788#0" expanded="true" />
-                <element signature="e#1815#1816#0" expanded="true" />
-                <element signature="e#1888#1889#0" expanded="true" />
-                <element signature="e#1916#1917#0" expanded="true" />
-                <element signature="e#1975#1976#0" expanded="true" />
-                <element signature="e#2003#2004#0" expanded="true" />
-                <element signature="e#2060#2061#0" expanded="true" />
-                <element signature="e#2088#2089#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DomaineXML.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DaoBDD/DomaineXML.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
+                <marker date="1517927441764" expanded="true" signature="1945:1977" ph="Select * Fro... Categorie" />
+                <marker date="1517927441764" expanded="true" signature="2703:2740" ph="INSERT INTO CATEGORIE... " />
+                <marker date="1517927441764" expanded="true" signature="2703:2749" ph="INSERT INTO CATEGORIE... " />
+                <marker date="1517927441764" expanded="true" signature="3346:3381" ph="INSERT INTO Produit... " />
+                <marker date="1517927441764" expanded="true" signature="3346:3442" ph="INSERT INTO Produit... " />
+                <marker date="1517927441764" expanded="true" signature="4025:4046" ph="DELETE FROM Categorie... " />
+                <marker date="1517927441764" expanded="true" signature="4025:4047" ph="DELETE FROM Categorie... " />
+                <marker date="1517927441764" expanded="true" signature="4025:4068" ph="DELETE FROM Categorie... " />
+                <marker date="1517927441764" expanded="true" signature="4025:4069" ph="DELETE FROM Categorie... " />
+                <marker date="1517927441764" expanded="true" signature="4670:4710" ph="DELETE FROM Produit... " />
               </folding>
             </state>
           </provider>
@@ -147,10 +125,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/moteur/CollCategories.java" />
         <option value="$PROJECT_DIR$/src/IDAO/IDomaine.java" />
-        <option value="$PROJECT_DIR$/src/connecteurs/MySqlB2B.java" />
-        <option value="$PROJECT_DIR$/src/DaoBDD/DomaineBDD.java" />
         <option value="$PROJECT_DIR$/src/beans/Categories.java" />
         <option value="$PROJECT_DIR$/src/DaoBDD/DomaineXML.java" />
+        <option value="$PROJECT_DIR$/src/connecteurs/MySqlB2B.java" />
+        <option value="$PROJECT_DIR$/src/DaoBDD/DomaineBDD.java" />
       </list>
     </option>
   </component>
@@ -172,16 +150,127 @@
             <id />
           </State>
           <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
             <id>Android &gt; Lint &gt; Correctness</id>
           </State>
           <State>
             <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
           </State>
           <State>
-            <id>Manifest</id>
+            <id>Android &gt; Lint &gt; Performance</id>
           </State>
           <State>
-            <id>Spelling</id>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
           </State>
           <State>
             <id>Spring</id>
@@ -189,10 +278,22 @@
           <State>
             <id>Spring CoreSpring</id>
           </State>
+          <State>
+            <id>Spring DataSpring</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+          <State>
+            <id>toString() issuesJava</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>SpellCheckingInspection</id>
+            <id>Duplicates</id>
           </State>
         </selected-state>
       </profile-state>
@@ -423,12 +524,12 @@
       <updated>1517907048576</updated>
       <workItem from="1517907053102" duration="143000" />
       <workItem from="1517907272911" duration="1333000" />
-      <workItem from="1517909664178" duration="3750000" />
+      <workItem from="1517909664178" duration="5991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5226000" />
+    <option name="totallyTimeSpent" value="7467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -479,7 +580,9 @@
         <state relative-caret-position="270">
           <caret line="23" column="99" lean-forward="false" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
           <folding>
-            <marker date="1517924365871" expanded="true" signature="1264:1278" ph="SELECT * FRO... missingValue" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <marker date="1517927180501" expanded="true" signature="1333:1347" ph="SELECT * FRO... missingValue" />
           </folding>
         </state>
       </provider>
@@ -547,62 +650,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/moteur/CollCategories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-          <folding>
-            <element signature="e#204#231#0" expanded="true" />
-            <element signature="e#2132#2133#0" expanded="true" />
-            <element signature="e#2163#2164#0" expanded="true" />
-            <element signature="e#2188#2189#0" expanded="true" />
-            <element signature="e#2204#2205#0" expanded="true" />
-            <element signature="e#2359#2360#0" expanded="true" />
-            <element signature="e#2387#2388#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
-            <element signature="e#2462#2463#0" expanded="true" />
-            <element signature="e#2493#2494#0" expanded="true" />
-            <element signature="e#2517#2518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/connecteurs/MySqlB2B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="22" column="99" lean-forward="false" selection-start-line="22" selection-start-column="99" selection-end-line="22" selection-end-column="99" />
-          <folding>
-            <marker date="1517924365871" expanded="true" signature="1264:1278" ph="SELECT * FRO... missingValue" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/beans/Categories.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
             <element signature="e#132#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DaoBDD/DomaineBDD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
-            <element signature="e#1815#1816#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
-            <element signature="e#1916#1917#0" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-            <element signature="e#2060#2061#0" expanded="true" />
-            <element signature="e#2088#2089#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -625,6 +678,58 @@
             <element signature="e#586#587#0" expanded="true" />
             <element signature="e#643#644#0" expanded="true" />
             <element signature="e#671#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/moteur/CollCategories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+          <folding>
+            <element signature="e#204#231#0" expanded="true" />
+            <element signature="e#2132#2133#0" expanded="true" />
+            <element signature="e#2163#2164#0" expanded="true" />
+            <element signature="e#2188#2189#0" expanded="true" />
+            <element signature="e#2204#2205#0" expanded="true" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2419#2420#0" expanded="true" />
+            <element signature="e#2462#2463#0" expanded="true" />
+            <element signature="e#2493#2494#0" expanded="true" />
+            <element signature="e#2517#2518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/connecteurs/MySqlB2B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <marker date="1517927180501" expanded="true" signature="1333:1347" ph="SELECT * FRO... missingValue" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DaoBDD/DomaineBDD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="137" column="57" lean-forward="false" selection-start-line="137" selection-start-column="57" selection-end-line="137" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1517927441764" expanded="true" signature="1945:1977" ph="Select * Fro... Categorie" />
+            <marker date="1517927441764" expanded="true" signature="2703:2740" ph="INSERT INTO CATEGORIE... " />
+            <marker date="1517927441764" expanded="true" signature="2703:2749" ph="INSERT INTO CATEGORIE... " />
+            <marker date="1517927441764" expanded="true" signature="3346:3381" ph="INSERT INTO Produit... " />
+            <marker date="1517927441764" expanded="true" signature="3346:3442" ph="INSERT INTO Produit... " />
+            <marker date="1517927441764" expanded="true" signature="4025:4046" ph="DELETE FROM Categorie... " />
+            <marker date="1517927441764" expanded="true" signature="4025:4047" ph="DELETE FROM Categorie... " />
+            <marker date="1517927441764" expanded="true" signature="4025:4068" ph="DELETE FROM Categorie... " />
+            <marker date="1517927441764" expanded="true" signature="4025:4069" ph="DELETE FROM Categorie... " />
+            <marker date="1517927441764" expanded="true" signature="4670:4710" ph="DELETE FROM Produit... " />
           </folding>
         </state>
       </provider>

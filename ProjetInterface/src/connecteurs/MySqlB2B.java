@@ -8,7 +8,11 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 public class MySqlB2B {
-	private Connection m_Con;
+    public Connection getM_Con() {
+        return m_Con;
+    }
+
+    private Connection m_Con;
 	// constructeurs
 	
 	/**
@@ -39,7 +43,7 @@ public class MySqlB2B {
 		ResultSet res=null;
 		// détecter si sql contient une table OU une requête SELECT...
 		if(!sql.contains(" "))
-			sql="SELECT * FROM "+sql;
+			sql = "SELECT * FROM " + sql;
 
 		Statement stmt;
 		try {

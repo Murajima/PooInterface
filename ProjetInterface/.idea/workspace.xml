@@ -15,21 +15,9 @@
       <file leaf-file-name="CollCategories.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/moteur/CollCategories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-              <folding>
-                <element signature="e#204#231#0" expanded="true" />
-                <element signature="e#2132#2133#0" expanded="true" />
-                <element signature="e#2163#2164#0" expanded="true" />
-                <element signature="e#2188#2189#0" expanded="true" />
-                <element signature="e#2204#2205#0" expanded="true" />
-                <element signature="e#2359#2360#0" expanded="true" />
-                <element signature="e#2387#2388#0" expanded="true" />
-                <element signature="e#2419#2420#0" expanded="true" />
-                <element signature="e#2462#2463#0" expanded="true" />
-                <element signature="e#2493#2494#0" expanded="true" />
-                <element signature="e#2517#2518#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-286">
+              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,12 +25,12 @@
       <file leaf-file-name="MySqlB2B.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/connecteurs/MySqlB2B.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+            <state relative-caret-position="486">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#251#252#0" expanded="true" />
                 <element signature="e#279#280#0" expanded="true" />
-                <marker date="1517927180501" expanded="true" signature="1333:1347" ph="SELECT * FRO... missingValue" />
+                <marker date="1517930268572" expanded="true" signature="1330:1344" ph="SELECT * FRO... missingValue" />
               </folding>
             </state>
           </provider>
@@ -51,21 +39,56 @@
       <file leaf-file-name="DomaineBDD.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DaoBDD/DomaineBDD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="137" column="57" lean-forward="false" selection-start-line="137" selection-start-column="57" selection-end-line="137" selection-end-column="57" />
+            <state relative-caret-position="384">
+              <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1517927441764" expanded="true" signature="1945:1977" ph="Select * Fro... Categorie" />
-                <marker date="1517927441764" expanded="true" signature="2703:2740" ph="INSERT INTO CATEGORIE... " />
-                <marker date="1517927441764" expanded="true" signature="2703:2749" ph="INSERT INTO CATEGORIE... " />
-                <marker date="1517927441764" expanded="true" signature="3346:3381" ph="INSERT INTO Produit... " />
-                <marker date="1517927441764" expanded="true" signature="3346:3442" ph="INSERT INTO Produit... " />
-                <marker date="1517927441764" expanded="true" signature="4025:4046" ph="DELETE FROM Categorie... " />
-                <marker date="1517927441764" expanded="true" signature="4025:4047" ph="DELETE FROM Categorie... " />
-                <marker date="1517927441764" expanded="true" signature="4025:4068" ph="DELETE FROM Categorie... " />
-                <marker date="1517927441764" expanded="true" signature="4025:4069" ph="DELETE FROM Categorie... " />
-                <marker date="1517927441764" expanded="true" signature="4670:4710" ph="DELETE FROM Produit... " />
+                <marker date="1517931038775" expanded="true" signature="1952:1994" ph="Select * Fro... Categorie" />
+                <marker date="1517931038775" expanded="true" signature="2790:2827" ph="INSERT INTO CATEGORIE... " />
+                <marker date="1517931038775" expanded="true" signature="2790:2836" ph="INSERT INTO CATEGORIE... " />
+                <marker date="1517931038775" expanded="true" signature="3433:3468" ph="INSERT INTO Produit... " />
+                <marker date="1517931038775" expanded="true" signature="3433:3529" ph="INSERT INTO Produit... " />
+                <marker date="1517931038775" expanded="true" signature="4112:4133" ph="DELETE FROM Categorie... " />
+                <marker date="1517931038775" expanded="true" signature="4112:4134" ph="DELETE FROM Categorie... " />
+                <marker date="1517931038775" expanded="true" signature="4112:4155" ph="DELETE FROM Categorie... " />
+                <marker date="1517931038775" expanded="true" signature="4112:4156" ph="DELETE FROM Categorie... " />
+                <marker date="1517931038775" expanded="true" signature="4757:4797" ph="DELETE FROM Produit... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Categorie.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/beans/Categorie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test02_Metadata.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/launches/Test02_Metadata.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <marker date="1509029790000" expanded="true" signature="490:606" ph="SELECT codeP... Categorie" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test03_MySqlB2B.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/launches/Test03_MySqlB2B.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,6 +151,7 @@
         <option value="$PROJECT_DIR$/src/beans/Categories.java" />
         <option value="$PROJECT_DIR$/src/DaoBDD/DomaineXML.java" />
         <option value="$PROJECT_DIR$/src/connecteurs/MySqlB2B.java" />
+        <option value="$PROJECT_DIR$/src/beans/Categorie.java" />
         <option value="$PROJECT_DIR$/src/DaoBDD/DomaineBDD.java" />
       </list>
     </option>
@@ -524,12 +548,12 @@
       <updated>1517907048576</updated>
       <workItem from="1517907053102" duration="143000" />
       <workItem from="1517907272911" duration="1333000" />
-      <workItem from="1517909664178" duration="5991000" />
+      <workItem from="1517909664178" duration="7850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7467000" />
+    <option name="totallyTimeSpent" value="9326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -571,8 +595,62 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/beans/Categorie.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>!sql.isEmpty()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sql.contains(&quot; &quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sql.contains(&quot;12432545436&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sql.contains(&quot;Cate&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sql.contains(&quot;Categorie&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sql.contains(&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sql instanceof String</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sql</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/connecteurs/MySqlB2B.java">
@@ -582,7 +660,7 @@
           <folding>
             <element signature="e#251#252#0" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
-            <marker date="1517927180501" expanded="true" signature="1333:1347" ph="SELECT * FRO... missingValue" />
+            <marker date="1517930268572" expanded="true" signature="1330:1344" ph="SELECT * FRO... missingValue" />
           </folding>
         </state>
       </provider>
@@ -595,46 +673,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/launches/Test02_Metadata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1509029790000" expanded="true" signature="490:606" ph="SELECT codeP... Categorie" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/CategorieFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-431">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beans/Categorie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/launches/Test01_Monolithique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1509029784000" expanded="true" signature="459:575" ph="SELECT codeP... Categorie" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/launches/LanceurGui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -646,16 +688,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#65#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beans/Categories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#132#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -684,52 +716,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/moteur/CollCategories.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        <state relative-caret-position="-286">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beans/Categories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
-            <element signature="e#204#231#0" expanded="true" />
-            <element signature="e#2132#2133#0" expanded="true" />
-            <element signature="e#2163#2164#0" expanded="true" />
-            <element signature="e#2188#2189#0" expanded="true" />
-            <element signature="e#2204#2205#0" expanded="true" />
-            <element signature="e#2359#2360#0" expanded="true" />
-            <element signature="e#2387#2388#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
-            <element signature="e#2462#2463#0" expanded="true" />
-            <element signature="e#2493#2494#0" expanded="true" />
-            <element signature="e#2517#2518#0" expanded="true" />
+            <element signature="e#132#171#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/launches/Test01_Monolithique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1509029784000" expanded="true" signature="459:575" ph="SELECT codeP... Categorie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/launches/Test02_Metadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1509029790000" expanded="true" signature="490:606" ph="SELECT codeP... Categorie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/launches/Test03_MySqlB2B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/launches/LanceurGui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/connecteurs/MySqlB2B.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        <state relative-caret-position="486">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#251#252#0" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
-            <marker date="1517927180501" expanded="true" signature="1333:1347" ph="SELECT * FRO... missingValue" />
+            <marker date="1517930268572" expanded="true" signature="1330:1344" ph="SELECT * FRO... missingValue" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beans/Categorie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DaoBDD/DomaineBDD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="137" column="57" lean-forward="false" selection-start-line="137" selection-start-column="57" selection-end-line="137" selection-end-column="57" />
+        <state relative-caret-position="384">
+          <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517927441764" expanded="true" signature="1945:1977" ph="Select * Fro... Categorie" />
-            <marker date="1517927441764" expanded="true" signature="2703:2740" ph="INSERT INTO CATEGORIE... " />
-            <marker date="1517927441764" expanded="true" signature="2703:2749" ph="INSERT INTO CATEGORIE... " />
-            <marker date="1517927441764" expanded="true" signature="3346:3381" ph="INSERT INTO Produit... " />
-            <marker date="1517927441764" expanded="true" signature="3346:3442" ph="INSERT INTO Produit... " />
-            <marker date="1517927441764" expanded="true" signature="4025:4046" ph="DELETE FROM Categorie... " />
-            <marker date="1517927441764" expanded="true" signature="4025:4047" ph="DELETE FROM Categorie... " />
-            <marker date="1517927441764" expanded="true" signature="4025:4068" ph="DELETE FROM Categorie... " />
-            <marker date="1517927441764" expanded="true" signature="4025:4069" ph="DELETE FROM Categorie... " />
-            <marker date="1517927441764" expanded="true" signature="4670:4710" ph="DELETE FROM Produit... " />
+            <marker date="1517931038775" expanded="true" signature="1952:1994" ph="Select * Fro... Categorie" />
+            <marker date="1517931038775" expanded="true" signature="2790:2827" ph="INSERT INTO CATEGORIE... " />
+            <marker date="1517931038775" expanded="true" signature="2790:2836" ph="INSERT INTO CATEGORIE... " />
+            <marker date="1517931038775" expanded="true" signature="3433:3468" ph="INSERT INTO Produit... " />
+            <marker date="1517931038775" expanded="true" signature="3433:3529" ph="INSERT INTO Produit... " />
+            <marker date="1517931038775" expanded="true" signature="4112:4133" ph="DELETE FROM Categorie... " />
+            <marker date="1517931038775" expanded="true" signature="4112:4134" ph="DELETE FROM Categorie... " />
+            <marker date="1517931038775" expanded="true" signature="4112:4155" ph="DELETE FROM Categorie... " />
+            <marker date="1517931038775" expanded="true" signature="4112:4156" ph="DELETE FROM Categorie... " />
+            <marker date="1517931038775" expanded="true" signature="4757:4797" ph="DELETE FROM Produit... " />
           </folding>
         </state>
       </provider>

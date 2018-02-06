@@ -37,7 +37,7 @@ public class DomaineBDD implements IDomaine {
                 float prixP = rs.getFloat("prixProduit");
                 int codeC = rs.getInt("codeCategorie");
                 Produit p = new Produit(codeP, nomP, prixP, codeC);
-                getCategorie(codeC).ajouteProduit(p);
+                returnArray.get(codeC - 1).ajouteProduit(p);
             }
         } catch (SQLException e) {
             System.err.println("Appelle macron");
@@ -54,15 +54,17 @@ public class DomaineBDD implements IDomaine {
         ResultSet res=null;
         MySqlB2B m_Con;
         m_Con = new MySqlB2B("Produits");
-        String sql="Categorie where codeCategorie = " + String.valueOf(i);
+        String sql="Categorie WHERE Categorie.codeCategorie = " + String.valueOf(i);
         res = m_Con.requete(sql);
         try {
-            // on récupère les champs de l'enregistrement
-            int code = res.getInt("codeCategorie");
-            String nom = res.getString("nomCategorie");
-            // on les ajoute à la collection
-            Categorie cat = new Categorie(code, nom);
-            return cat;
+            while(res.next()) {
+                // on récupère les champs de l'enregistrement
+                int code = res.getInt("codeCategorie");
+                String nom = res.getString("nomCategorie");
+                // on les ajoute à la collection
+                Categorie cat = new Categorie(code, nom);
+                return cat;
+            }
         } catch (SQLException e) {
             System.err.println("Appelle macron");
         }

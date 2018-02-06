@@ -19,14 +19,16 @@ public class MySqlB2B {
 	 * @param passwd
 	 */
 	public MySqlB2B(String ip, String base, String login, String passwd, String port) {
+		String connectionString = "jdbc:mysql://"+ ip + ":" + port + "/" + base + "?useSSL=false"; // => Antoine
 		try {
 			m_Con=DriverManager.getConnection(
-					"jdbc:mysql://"+ ip + ":" + port + "/" + base + "?useSSL=false", login, passwd);
+					connectionString, login, passwd);
 		} catch(Exception exc) {
 			System.err.println(getClass().getSimpleName()+
 					"Constructeur : "+exc.getMessage());
 		}
 	}
+	// Antoine => ip: localhost ; login: root ; password:root ; port:8889
 	public MySqlB2B(String base) {
 		this("localhost",base,"root","root", "8889");
 	}

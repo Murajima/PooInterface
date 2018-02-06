@@ -23,8 +23,8 @@ public class MySqlB2B {
 	 * @param passwd
 	 */
 	public MySqlB2B(String ip, String base, String login, String passwd, String port) {
-		String connectionString = "jdbc:mysql://"+ ip + ":" + port + "/" + base + "?useSSL=false"; // => Antoine
-		// String connectionString = "jdbc:mysql://"+ ip + "/" + base + "?useSSL=false" // => Terry;
+		//String connectionString = "jdbc:mysql://"+ ip + ":" + port + "/" + base + "?useSSL=false"; // => Antoine
+		String connectionString = "jdbc:mysql://"+ ip + "/" + base + "?useSSL=false" ;// => Terry;
 		try {
 			m_Con=DriverManager.getConnection(
 					connectionString, login, passwd);

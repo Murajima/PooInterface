@@ -36,7 +36,7 @@ public class MySqlB2B {
 	}
 	// Antoine et Terry=> ip: localhost ; login: root ; password:root ; port:8889
 	public MySqlB2B(String base) {
-		this("localhost",base,"root","root", "8889");
+		this("localhost",base,"root","", "3306");
 	}
 	// requetes
 	public ResultSet requete(String sql) {

@@ -8,7 +8,8 @@ public class tester {
 		// TODO Auto-generated method stub
 
 		DomaineXML dxml = new DomaineXML();
-		dxml.getAllCategories(true);
+		//dxml.getAllCategories(true);
+		dxml.addCategorie("toto");
 	}
 
 }

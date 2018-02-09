@@ -107,16 +107,18 @@ public class DomaineXML implements IDomaine {
 	public boolean addCategorie(String s) {
 		// https://www.mkyong.com/java/how-to-modify-xml-file-in-java-dom-parser/
 
+		s = "value"; // TODO utilisé pour les tests
 		try {
 			DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
-			// domFactory.setIgnoringComments(true);
+			domFactory.setIgnoringComments(true);
 			DocumentBuilder builder = domFactory.newDocumentBuilder();
 			Document doc = builder.parse(new File("./utils/tester.xml"));
-
+			doc.getDocumentElement().normalize();
+			
 			NodeList nodes = doc.getElementsByTagName("bordeaux");
 			//NodeList nodes = doc.getElementsByTagName("staff");
 
-			Text a = doc.createTextNode("val");
+			Text a = doc.createTextNode(s);
 			Element p = doc.createElement("categorie");
 			p.setAttribute("codeCategorie", "3");
 			p.setAttribute("nomCategorie", "cucurbitacées");
@@ -133,6 +135,7 @@ public class DomaineXML implements IDomaine {
 			// update staff attribute
 			NamedNodeMap attr = nodes.item(0).getAttributes();
 			Node nodeAttr = attr.getNamedItem("id");
+			//System.out.println(nodeAttr.getTextContent()); 		// récuperation d'attributs
 			// nodeAttr.setTextContent("2");
 
 			// write the content into xml file

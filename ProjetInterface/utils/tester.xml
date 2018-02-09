@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<company>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><company>
 	<bordeaux>
 		<staff id="1001">
 			<firstname>yong</firstname>
@@ -13,6 +12,5 @@
 			<nickname>fong fong</nickname>
 			<salary>200001</salary>
 		</staff>
-		<categorie codeCategorie="3" nomCategorie="cucurbitacées">val</categorie>
-	</bordeaux>
+	<categorie codeCategorie="3" nomCategorie="cucurbitacées">value</categorie></bordeaux>
 </company>

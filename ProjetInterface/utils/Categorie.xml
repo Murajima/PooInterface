@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+<Produits>
+    <Categorie>
+        <codeCategorie>1</codeCategorie>
+        <nomCategorie>Alcools</nomCategorie>
+    </Categorie>
+
+    <Categorie>
+        <codeCategorie>2</codeCategorie>
+        <nomCategorie>Gâteaux salés</nomCategorie>
+    </Categorie>
+
+    <Categorie>
+        <codeCategorie>3</codeCategorie>
+        <nomCategorie>Laitages</nomCategorie>
+    </Categorie>
+
+    <Categorie>
+        <codeCategorie>4</codeCategorie>
+        <nomCategorie>Oeufs</nomCategorie>
+    </Categorie>
+</Produits>

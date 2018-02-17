@@ -10,7 +10,7 @@ public class Categorie {
 	public Categorie(int codeCategorie, String nomCategorie) {
 		this.codeCategorie = codeCategorie;
 		this.nomCategorie = nomCategorie;
-		listeProduits=new ArrayList<>();
+		listeProduits=new ArrayList<Produit>();
 	}
 	
 	public void ajouteProduit(Produit p) {

@@ -1,156 +1,98 @@
 package DaoBDD;
 
 import java.io.File;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
+import java.io.IOException;
+import java.util.List;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.Text;
+import beans.Produit;
+import org.jdom2.Attribute;
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.JDOMException;
+import org.jdom2.input.SAXBuilder;
+
+
 
 import IDAO.IDomaine;
 import beans.Categorie;
 import beans.Categories;
 
 public class DomaineXML implements IDomaine {
+    private String PATH = "utils/";
 
 	@Override
-	public Categories getAllCategories(boolean b) { // bool ?????
+	public Categories getAllCategories(boolean b) {
 
-		// http://www.mkyong.com/java/how-to-read-xml-file-in-java-dom-parser/
-
-		Categories ret = new Categories();
+		Categories returnArray = new Categories();
 		try {
+		    // Get all Categories & Products from XML file
+			File catFile = new File(PATH + "Categorie.xml");
+            File prodFile = new File(PATH + "Produit.xml");
 
-			File XmlFile = new File("./utils/tester.xml");
+			SAXBuilder catBuilder = new SAXBuilder();
+            SAXBuilder prodBuilder = new SAXBuilder();
 
-			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			Document doc = dBuilder.parse(XmlFile);
+			Document catDoc = catBuilder.build(catFile);
+			Document prodDoc = prodBuilder.build(prodFile);
 
-			// facultatif
-			doc.getDocumentElement().normalize();
+			Element catElement = catDoc.getRootElement();
+			Element prodElement = prodDoc.getRootElement();
 
-			// System.out.println("Root element :" +
-			// doc.getDocumentElement().getNodeName()); // Company
+			List<Element> listCategorie = catElement.getChildren();
+            List<Element> listProduit = prodElement.getChildren();
 
-			// NodeList nList = doc.getElementsByTagName("staff"); // tableau de staff
-
-			NodeList nList = doc.getElementsByTagName("categorie"); // tableau de cat
-
-			for (int i = 0; i < nList.getLength(); i++) {
-
-				Node nNode = nList.item(i);
-
-				System.out.println("\nCurrent Element :" + nNode.getNodeName());
-
-				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
-
-					Element eElement = (Element) nNode;
-
-					System.out.println("codeCategorie : " + eElement.getAttribute("codeCategorie"));
-					int codeCategorie = Integer.parseInt(eElement.getAttribute("codeCategorie"));
-					System.out.println("nomCategorie : " + eElement.getAttribute("nomCategorie"));
-					String nomCategorie = eElement.getAttribute("nomCategorie");
-					// System.out.println("First Name : " +
-					// eElement.getElementsByTagName("firstname").item(0).getTextContent());
-
-					Categorie c = new Categorie(codeCategorie, nomCategorie);
-
-					ret.add(c);
-				}
+			for (int temp = 0; temp < listCategorie.size(); temp++) {
+				Element cat = listCategorie.get(temp);
+                int intCat = Integer.parseInt(cat.getChild("codeCategorie").getText());
+                String strCat = cat.getChild("nomCategorie").getText();
+                Categorie tmpCat = new Categorie(intCat, strCat);
+                returnArray.add(tmpCat);
 			}
-			// Produit p = new Produit(codeP, nomP, prixP, codeC);
 
-		} catch (Exception e) {
+            for (int temp = 0; temp < listCategorie.size(); temp++) {
+                Element cat = listProduit.get(temp);
+                int intProd = Integer.parseInt(cat.getChild("codeProduit").getText());
+                String strProd = cat.getChild("nomProduit").getText();
+                float floatPrix = Float.parseFloat(cat.getChild("prixProduit").getText());
+                int intprodCat = Integer.parseInt(cat.getChild("codeCategorie").getText());
+
+                Produit p = new Produit(intProd, strProd, floatPrix, intprodCat);
+                returnArray.get(intprodCat - 1).ajouteProduit(p);
+            }
+		} catch(JDOMException e) {
 			e.printStackTrace();
+		} catch(IOException ioe) {
+			ioe.printStackTrace();
 		}
-		return ret;
+
+        return returnArray;
 	}
 
 	@Override
 	public Categorie getCategorie(int i) {
+	    try {
+            File catFile = new File(PATH + "Categorie.xml");
+            SAXBuilder catBuilder = new SAXBuilder();
+            Document catDoc = catBuilder.build(catFile);
+            Element catElement = catDoc.getRootElement();
+            List<Element> listCategorie = catElement.getChildren();
 
-		File XmlFile = new File("./utils/tester.xml");
-		try {
-			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			Document doc = dBuilder.parse(XmlFile);
+            Element cat = listCategorie.get(i);
+            int intCat = Integer.parseInt(cat.getChild("codeCategorie").getText());
+            String strCat = cat.getChild("nomCategorie").getText();
+            Categorie tmpCat = new Categorie(intCat, strCat);
 
-			// facultatif
-			doc.getDocumentElement().normalize();
-
-			NodeList nList = doc.getElementsByTagName("categorie"); // tableau de categorie
-
-			Node nNode = nList.item(i); // categorie à l'index i
-			Element eElement = (Element) nNode;
-			// récuperation des champs :
-			int codeCategorie = Integer.parseInt(eElement.getAttribute("codeCategorie"));
-			String nomCategorie = eElement.getAttribute("nomCategorie");
-			// le retour :
-			return new Categorie(codeCategorie, nomCategorie);
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return null;
+            return  tmpCat;
+        } catch(JDOMException e) {
+            e.printStackTrace();
+        } catch(IOException ioe) {
+            ioe.printStackTrace();
+        }
+        return null;
 	}
 
 	@Override
 	public boolean addCategorie(String s) {
-		// https://www.mkyong.com/java/how-to-modify-xml-file-in-java-dom-parser/
-
-		s = "value"; // TODO utilisé pour les tests
-		try {
-			DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
-			domFactory.setIgnoringComments(true);
-			DocumentBuilder builder = domFactory.newDocumentBuilder();
-			Document doc = builder.parse(new File("./utils/tester.xml"));
-			doc.getDocumentElement().normalize();
-			
-			NodeList nodes = doc.getElementsByTagName("bordeaux");
-			//NodeList nodes = doc.getElementsByTagName("staff");
-
-			Text a = doc.createTextNode(s);
-			Element p = doc.createElement("categorie");
-			p.setAttribute("codeCategorie", "3");
-			p.setAttribute("nomCategorie", "cucurbitacées");
-			p.appendChild(a);
-
-			nodes.item(0).appendChild(p); // insert avant la fin de la liste staff
-			// nodes.item(0).getParentNode().insertBefore(p, nodes.item(0)); // insert avant le début de la liste staff
-
-			// append a new node to staff n° 1
-			Element age = doc.createElement("age");
-			age.appendChild(doc.createTextNode("28"));
-			// nodes.item(0).appendChild(age);
-
-			// update staff attribute
-			NamedNodeMap attr = nodes.item(0).getAttributes();
-			Node nodeAttr = attr.getNamedItem("id");
-			//System.out.println(nodeAttr.getTextContent()); 		// récuperation d'attributs
-			// nodeAttr.setTextContent("2");
-
-			// write the content into xml file
-			TransformerFactory transformerFactory = TransformerFactory.newInstance();
-			Transformer transformer = transformerFactory.newTransformer();
-			DOMSource source = new DOMSource(doc);
-			StreamResult result = new StreamResult(new File("./utils/tester.xml"));
-			transformer.transform(source, result);
-
-			System.out.println("Done");
-
-		} catch (Exception e) {
-			// TODO: handle exception
-		}
-
 		return false;
 	}
 

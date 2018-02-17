@@ -5,6 +5,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 import DaoBDD.DomaineBDD;
+import DaoBDD.DomaineXML;
 import IDAO.IDomaine;
 import beans.Categorie;
 import beans.Categories;
@@ -17,7 +18,8 @@ public class CollCategories {
 	private IDomaine domaine;
 	private Categories categories;
 	public CollCategories() {
-		domaine=new DomaineBDD();	// ou domaine=new DomaineXML();
+		// domaine=new DomaineBDD();
+		domaine=new DomaineXML();
 		categories=domaine.getAllCategories(true);
 	}
 	public void ajouteCategorie(String nom) {

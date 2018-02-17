@@ -1,0 +1,27 @@
+<?xml version = "1.0"?>
+<Produits>
+    <Produit>
+        <codeProduit>1</codeProduit>
+        <nomProduit>Vodka</nomProduit>
+        <prixProduit>14.5</prixProduit>
+        <codeCategorie>1</codeCategorie>
+    </Produit>
+    <Produit>
+        <codeProduit>2</codeProduit>
+        <nomProduit>Eku 28</nomProduit>
+        <prixProduit>5</prixProduit>
+        <codeCategorie>1</codeCategorie>
+    </Produit>
+    <Produit>
+        <codeProduit>3</codeProduit>
+        <nomProduit>Mini-Pizzas</nomProduit>
+        <prixProduit>0.9</prixProduit>
+        <codeCategorie>2</codeCategorie>
+    </Produit>
+    <Produit>
+        <codeProduit>4</codeProduit>
+        <nomProduit>Noix de Cajou</nomProduit>
+        <prixProduit>2.1</prixProduit>
+        <codeCategorie>2</codeCategorie>
+    </Produit>
+</Produits>

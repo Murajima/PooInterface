@@ -1,4 +1,3 @@
-<?xml version = "1.0"?>
 <Produits>
     <Categorie>
         <codeCategorie>1</codeCategorie>
@@ -19,4 +18,4 @@
         <codeCategorie>4</codeCategorie>
         <nomCategorie>Oeufs</nomCategorie>
     </Categorie>
-</Produits>
+<Categorie><codeCategorie>5</codeCategorie><nomCategorie>Soda</nomCategorie></Categorie></Produits>
